@@ -1,0 +1,11 @@
+spring:
+  application.name: spring-service-example
+
+config.name: default developer
+
+---
+server.port: 8080
+spring:
+  profiles: dev
+
+config.name: developer
